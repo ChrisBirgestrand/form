@@ -1,9 +1,21 @@
+body {
+    background-image:url(../images/pexels-philippe-donn-1114690.jpg);
+    
+}
+
+.test1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 .form-box {
     background-color: chocolate;
     width: 400px;
     height: 600px;
     border-radius: 8px;
+    float: right;
 }
 
 .h1 {
@@ -38,6 +50,11 @@
     height: 200px;
 }
 
+.checkbox-container input {
+    opacity: 1;
+    cursor: pointer;
+}
+
 .cbox-title {
     display: inline;
 }
@@ -48,14 +65,28 @@
     align-items: flex-end;
 }
 
+.checkbox-container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
 .cbox-title2 {
     display: inline;
+}
+
+.fa-regular {
+    background-color: white;
+    border-color: black;
+    border-radius: 4px;
+    
 }
 
 .button-container {
     display: flex;
     justify-content: center;
-    align-items: flex-end;   
+    align-items: flex-end;
+    margin-top: 10px;   
 }
 .button {
     background-color: darkgreen;
@@ -72,3 +103,4 @@
 .button:hover {
     background-color: green;
 }
+
