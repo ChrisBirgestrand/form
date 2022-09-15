@@ -37,6 +37,7 @@ body {
 .label {
     display: flex;
     justify-content: center;
+    margin: 5px;
 }
 
 .input {
@@ -47,7 +48,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 200px;
+    height: 170px;
 }
 
 .checkbox-container input {
@@ -75,11 +76,8 @@ body {
     display: inline;
 }
 
-.fa-regular {
-    background-color: white;
-    border-color: black;
-    border-radius: 4px;
-    
+.fa-regular::before {
+    border-color: black;  
 }
 
 .button-container {
@@ -89,12 +87,12 @@ body {
     margin-top: 10px;   
 }
 .button {
-    background-color: darkgreen;
+    background-color: rgb(243, 7, 7);
     width: 350px;
     height: 40px;
     border-radius: 4px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
     display: flex;
     justify-content: center;
     align-items: center;
