@@ -10,37 +10,40 @@
 <body>
 
 <div class="form-box">
-    <h1>Register for an account</h1>
+    <h1 class="h1">Register for an account</h1>
 
-    <h2>Please fill out form below to register</h2>
+    <h2 class="h2">Please fill out form below to register</h2>
 
     <form action="" class="form">
-        <label for="username">username
+        <label for="username" class="label">Username
         </label>
-        <input type="text" id="username" name="username" placeholder="Username">
-        <label for="password">Password
+        <input type="text" id="username" name="username" placeholder="Username" class="input">
+        <label for="password" class="label">Password
         </label>
-        <input type="password" name="password" id="password" placeholder="Password" required minlength="8">
-        <label for="email">email
+        <input type="password" name="password" id="password" placeholder="Password" required minlength="8" maxlength="24" class="input">
+        <label for="email" class="label">Email
         </label>
-        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="email" name="email" id="email" placeholder="Email@email.com" class="input">
         <div class="checkbox-container">
             <label class="checkbox-label">
                 <input type="checkbox" checked>
                 <span class="customcbox"></span>
                 <div class="cbox-title">
-                I agree on the terms and services and sign up for emails every minute.
+                I agree on signing up for emails every minute.
                 </div>
             </label>
         </div>
         <div class="checkbox-container2">
             <label class="checkbox-label2">
-                <input type="checkbox" checked>
+                <input type="checkbox">
                 <span class="customcbox2"></span>
                 <div class="cbox-title2">
                 I am above the age of 18.
                 </div>
             </label>
+        </div>
+        <div class="button-container">
+            <button class="button">Register now</button>
         </div>
     </form>
 </div>

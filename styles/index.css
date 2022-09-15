@@ -1,0 +1,58 @@
+body {
+
+}
+
+.form-box {
+    background-color: chocolate;
+    width: 400px;
+    height: 600px;
+    border-radius: 8px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 400px;
+    height: 492px;
+    text-align: center;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    text-align: center;
+}
+
+.checkbox-container {
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+.button {
+    background-color: darkgreen;
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: green;
+}
