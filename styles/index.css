@@ -38,17 +38,25 @@ body {
     display: flex;
     justify-content: center;
     margin: 5px;
+    text-decoration: underline;
 }
 
 .input {
-    text-align: center;
+    outline: none;
+    background-color: chocolate;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    margin-left: 10px;
+    width: 300px;
 }
 
 .checkbox-container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 170px;
+    height: 130px;
 }
 
 .checkbox-container input {
@@ -67,8 +75,7 @@ body {
 }
 
 .checkbox-container2 input {
-    position: absolute;
-    opacity: 0;
+    opacity: 1;
     cursor: pointer;
 }
 
@@ -76,9 +83,11 @@ body {
     display: inline;
 }
 
+/* Supposed to be for custom checkmark box
 .fa-regular::before {
     border-color: black;  
 }
+*/
 
 .button-container {
     display: flex;
@@ -90,7 +99,6 @@ body {
     background-color: rgb(243, 7, 7);
     width: 350px;
     height: 40px;
-    border-radius: 4px;
     cursor: pointer;
     transition: 0.3s;
     display: flex;
